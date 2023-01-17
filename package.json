@@ -8,5 +8,6 @@
     "start":"tsc && node dist/index.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "type": "module"
 }

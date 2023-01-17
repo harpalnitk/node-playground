@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 
+
 const slugify = (str: string): string => str.toLowerCase().replace(/\s+/g, '-').replace(/[^\w-]+/g, '');
 console.log(slugify('Hello World'));// -> hello-world
 
