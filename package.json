@@ -4,10 +4,13 @@
   "description": "",
   "main": "index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"tsc && node dist/index.js"
+    "start": "tsc && node dist/index.js",
+    "test": "vitest"
   },
   "author": "",
   "license": "ISC",
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "vitest": "^0.27.2"
+  }
 }

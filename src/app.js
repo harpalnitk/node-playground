@@ -387,9 +387,10 @@ for(const [i,val] of arrA.entries()){
 //the above code is imperative
 //however JS provides built in methods
 //below is declarative code
-arrA.forEach();
-arrA.map();
-arrA.filter();
-arrA.find();
-arrA.findIndex();
-arrA.reduce();/// to take an entire array and calculate single val from it
+const arrAA = [1,2,3,3,3,4,5,6];
+arrAA.forEach(()=>{});
+arrAA.map(()=>{});
+arrAA.filter(()=>{});
+arrAA.find(()=>{});
+arrAA.findIndex(()=>{});
+arrAA.reduce(()=>{});/// to take an entire array and calculate single val from it
