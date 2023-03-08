@@ -60,3 +60,22 @@ type Person = {
 
 let person1: Person;
 let people1: Person[];
+
+//! Function and types
+function add1(a:number,b:number): number{
+    return a+b;
+}
+
+//! Generics
+function insertAtBeginining(array: any[], value: any){
+    const newArray = [value,...array];
+    return newArray;
+}
+//above will not give error if we enter array of number and value as string
+
+//but below will give error
+//generic type T is available in the function and also in parameters
+function insertAtBegininingGeneric<T>(array: T[], value: T){
+    const newArray = [value,...array];
+    return newArray;
+}
